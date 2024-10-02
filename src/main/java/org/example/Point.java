@@ -14,9 +14,6 @@ public class Point {
         sb.append(x).append(", ").append(y).append("; ");
         return sb.toString();
     }
-    public String doublePointToString(double p){
-        return Double.toString(p);
-    }
 
     public double distance(Point other){
         return sqrt(pow(x - other.x, 2) + pow(y -other.y, 2));
