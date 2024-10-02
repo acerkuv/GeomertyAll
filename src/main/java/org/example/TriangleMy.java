@@ -2,7 +2,6 @@ package org.example;
 
 public class TriangleMy {
     Point p1, p2, p3;
-
     public TriangleMy(Point p1, Point p2, Point p3){
         this.p1 = p1;
         this.p2 = p2;
@@ -20,6 +19,7 @@ public class TriangleMy {
     }
 
     public String getPoints(TriangleMy triangleMy){
+
         return p1.getPoint() + p2.getPoint() + p3.getPoint();
     }
 }
