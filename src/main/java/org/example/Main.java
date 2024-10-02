@@ -12,17 +12,17 @@ public class Main {
        // Расстояние между двумя точками
         System.out.println(p1.distance(p2));
 
-        // Периметр треуголька
+        // Периметр треугольника
        TriangleMy triangleMy = new TriangleMy(p1, p2, p3);
-       System.out.println(triangleMy.per());
+       System.out.println("Периметр треугольника " +  triangleMy.per());
 
        // Вичисление площади треугольников из массива trs
        TriangleMy[] trs = {new TriangleMy(p1,p2, p3), new TriangleMy(new Point(99, 100),
                  new Point(20, 77), new Point(8, 12))};
 
        for (TriangleMy t: trs)
-           System.out.println("Для точек вершин треуголтника (x,y); "
-                   + t.getPoints(t) + " периметр= " +  t.toString());
+           System.out.println("Для точек вершин треугольника (x,y); "
+                   + t.getPoints(t) + " периметр = " +  t.toString());
 
        Circle circle = new Circle(new Point(10, 10), 10);
        System.out.println("Длинна окружности = " + circle.pCircle());
