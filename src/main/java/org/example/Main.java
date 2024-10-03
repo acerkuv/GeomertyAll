@@ -22,7 +22,7 @@ public class Main {
 
        for (TriangleMy t: trs)
            System.out.println("Для точек вершин треугольника (x,y); "
-                   + t.getPoints(t) + " периметр = " +  t.toString());
+                   + t.getPoints(t) + " периметр = " +  t.per());
 
        Circle circle = new Circle(new Point(10, 10), 10);
        System.out.println("Длинна окружности = " + circle.pCircle());

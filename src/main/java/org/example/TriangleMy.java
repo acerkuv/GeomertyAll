@@ -13,10 +13,8 @@ public class TriangleMy {
         double s3= p2.distance(p3);
         return s1 + s2 + s3;
     }
-    @Override
-    public String toString(){
-        return Double.toString(per());
-    }
+
+
 
     public String getPoints(TriangleMy triangleMy){
 
